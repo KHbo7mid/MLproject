@@ -1,5 +1,6 @@
 from setuptools import find_packages, setup
 from typing import List
+
 HYPHEN_E_DASH = '-e .'
 def get_requirements(file_path:str)->List[str]:
     ''''This function will return the list of requirements'''
