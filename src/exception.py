@@ -1,5 +1,5 @@
 import sys
-import logging
+
 def error_message_detail(error,error_detail:sys):
     _, _, exc_tb = error_detail.exc_info()  # Get exception info (type, value, traceback)
     #We only care about the traceback object (exc_tb), so we ignore the first two with _.
@@ -21,4 +21,4 @@ class CustomException(Exception):
     
     
     
-    
+
